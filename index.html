@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantica</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo">
+          <img src=".images/logo.svg" alt="logotip SKY FLY" />
+        </a>
+        <ul class="menu">
+          <li class="menu-item"><a href="#">О Нас</a></li>
+          <li class="menu-item"><a href="#">Тарифы</a></li>
+          <li class="menu-item"><a href="#">Отзывы</a></li>
+          <li class="menu-item"><a href="#">Блог</a></li>
+          <li class="menu-item"><a href="#">Контакты</a></li>
+        </ul>
+        <a href="tel:377555777" class="phone-number">377-555-777</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <h1>Прыжок с парашютом</h1>
+        <p>Покори свой страх</p>
+        <a href="#">Забранировать прыжок</a>
+      </section>
+      <section class="about">
+        <h2>О Нас</h2>
+        <b
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error iusto
+          ab unde, aliquid fuga labore iure nam et ea optio exercitationem
+          molestias asperiores ut ad autem ex voluptatum sapiente ullam!</b
+        >
+        <!-- dl это discripshon list используется как описание
+        естб обьект и он описывает этот оьект , используется для контактов типо Адрес такой то -->
+        <dl>
+          <dt>5</dt>
+          <dd>лет опыта</dd>
+
+          <dt>900</dt>
+          <dd>довольных клиентов</dd>
+
+          <dt>5000 +</dt>
+          <dd>успешных прыжков</dd>
+        </dl>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores,
+          repellendus eaque et consectetur pariatur suscipit. Maiores, eius
+          odit? Distinctio nostrum at ratione unde commodi obcaecati fugit
+          impedit eligendi ipsam quia!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati,
+          vitae id eum aspernatur exercitationem delectus autem itaque
+          necessitatibus minima deserunt nisi sint impedit. Beatae
+          exercitationem quasi, libero eligendi quidem distinctio!
+        </p>
+      </section>
+      <section class="prices">
+        <h2>Тарифы</h2>
+        <b
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+          tempora animi voluptatem nostrum repellendus. Doloremque aliquam eos
+          tempora dicta odit?</b
+        >
+        <ul>
+          <li>
+            <h3>Lorem, ipsum.</h3>
+            <ol>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+            </ol>
+            <p>1000 грн.</p>
+            <a href="#">Забранировать</a>
+          </li>
+          <li>
+            <h3>Lorem, ipsum.</h3>
+            <ol>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+            </ol>
+            <p>2000 грн.</p>
+            <a href="#">Забранировать</a>
+          </li>
+          <li>
+            <h3>Lorem, ipsum.</h3>
+            <ol>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+            </ol>
+            <p>3000 грн.</p>
+            <a href="#">Забранировать</a>
+          </li>
+        </ul>
+      </section>
+      <section class="video">
+        <h2 class="vsually-hidden">Видео</h2>
+        <video postar="images/postar.jpg">
+          <source src="video/video.mp4" />
+        </video>
+        <button type="button"></button>
+      </section>
+      <section class="reviwes">
+        <h2>Отзывы</h2>
+        <!-- тут будет тег для цитат  <blockquote> и тут они в слайдере -->
+        <ul>
+          <li>
+            <blockquote>
+              <img src="images/photo.jpg" alt="фото пользователя" />
+              <!-- cite это кого цитируют -->
+              <cite>Алла Антоненко</cite>
+              <!-- time это время когда сказал цитату -->
+              <time datetime="2021-04-20">20.04.2021</time>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, libero!
+              </p>
+            </blockquote>
+          </li>
+          <li>
+            <blockquote>
+              <img src="images/photo.jpg" alt="фото пользователя" />
+              <!-- cite это кого цитируют -->
+              <cite>Максим Влащенко</cite>
+              <!-- time это время когда сказал цитату -->
+              <time datetime="2021-04-20">20.04.2021</time>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum, libero!
+              </p>
+            </blockquote>
+          </li>
+        </ul>
+        <button type="button"></button>
+        <button type="button"></button>
+      </section>
+      <section class="filming">
+        <h2>Видео сьемка</h2>
+        <b>Видеовпечатления, которые с вами остануться навсегда</b>
+        <!-- Таблица -->
+        <table>
+          <tr>
+            <th>Услуга</th>
+            <th>Стоимость</th>
+            <th>Длительность</th>
+          </tr>
+          <tr>
+            <td>
+              <b>Видео + фото (usb Flash)</b>
+              Производиться проффесиональным оператором
+            </td>
+            <td>2000 грв.</td>
+            <td>5 минут</td>
+          </tr>
+          <tr>
+            <td><b>Камера GoPro</b></td>
+            Съемка ведётся с руки тандем-мастера
+            <td>1000 грв.</td>
+            <td>10 минут</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Проффесиональный монтаж</b>
+            </td>
+            В течении недели вам делается проффесиональный монтаж с учетом всех
+            ваших пожеланий
+            <td>1000 грв.</td>
+            <td>10 минут</td>
+          </tr>
+        </table>
+        <a href="#">Заказать видео</a>
+      </section>
+      <section class="blog">
+        <h2>Блог</h2>
+        <!-- Артикл когда статьи -->
+        <article class="blog-article">
+          <h3>Ближайшее событие в вашем клубе</h3>
+          <img src="images/blog1.jpg" alt="text" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            dolorum cupiditate quos, consectetur tenetur minus sint. Possimus,
+            minima. Officia dignissimos voluptates distinctio atque optio quam
+            molestiae repellendus necessitatibus blanditiis voluptas labore eos
+            perspiciatis alias, sit asperiores, eveniet omnis laudantium nobis
+            repellat non sed ad. Quam cupiditate ducimus vero qui numquam autem
+            tempora quod, eveniet culpa, ipsam dolorum amet rerum dignissimos
+            quas, iste voluptate suscipit nemo error laboriosam. Voluptates id
+            veniam cum rem accusamus deleniti amet quod. Et mollitia nisi ea
+            magnam, voluptas architecto! Sunt sint natus aspernatur expedita hic
+            consectetur cumque, vitae, cum sed autem ad temporibus voluptas
+            accusamus beatae.
+          </p>
+          <a href="#">подробнее</a>
+        </article>
+        <!-- Разные случае как может быть сыллка с заглавием и с картинкой -->
+        <article class="blog-article">
+          <h3>
+            <a href="#">Чемпионат Украины по классическому парашютизму</a>
+          </h3>
+          <img src="images/blog1.jpg" alt="text" />
+        </article>
+        <article class="blog-article">
+          <!-- И заглавие и картинка ссылка -->
+          <a href="#">
+            <h3>Чемпионат Украины по классическому парашютизму</h3>
+            <img src="images/blog1.jpg" alt="text" />
+          </a>
+        </article>
+        <!-- Может быть две ссылки -->
+        <article class="blog-article">
+          <a href="#"
+            ><h3>Чемпионат Украины по классическому парашютизму</h3></a
+          >
+          <a href="#"><img src="images/blog1.jpg" alt="text" /></a>
+        </article>
+        <article class="blog-article">
+          <h3>
+            <a href="#">Чемпионат Украины по классическому парашютизму</a>
+          </h3>
+          <img src="images/blog1.jpg" alt="text" />
+        </article>
+        <a href="#">Больше новостей</a>
+      </section>
+      <section class="feedback">
+        <h2>Нужна консультация</h2>
+        <p>Заполните форму и наш менеджер свяжется с вами в ближайшее время</p>
+        <form action="#">
+          <!-- Инпут так же может быть вложен в нутрь тега label 
+            так же смело можно использовать p(параграф) -->
+          <label class="vsually-hidden" for="name">Имя</label>
+          <input id="name" type="text" placeholder="Имя" />
+          <label class="vsually-hidden" for="phone">Телефон</label>
+          <input id="phone" type="tel" placeholder="Телефон" />
+          <label class="vsually-hidden" for="message">Ваш вопрос</label>
+          <textarea id="message" placeholder="Ваш вопрос"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+      <!-- Контакты делается списком описания dl + сам адресс пишится в теге address -->
+      <section class="contacts">
+        <h2>Контакты</h2>
+        <dl>
+          <dt>Адрес</dt>
+          <dd><address>г. Харьков, ул. Плехановская 16а</address></dd>
+
+          <dt>Телефон</dt>
+          <dd><a href="tel:377555777">377-555-777</a></dd>
+
+          <dt>Электронный адрес</dt>
+          <dd><a href="mailto:avakado_@mail.ru">avakado_@mail.ru</a></dd>
+
+          <dt>Вреся работы</dt>
+          <dd>с 9:00 до 18:00</dd>
+
+          <dt>Социальные сети</dt>
+          <dd>
+            <ul>
+              <li>
+                <a href="#"><img src="images/inst.svg" alt="inst" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/inst.svg" alt="inst" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/inst.svg" alt="inst" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/inst.svg" alt="inst" /></a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="images/map" alt="map" />
+      <p>Тут копирайт пишется в этом теге</p>
+    </footer>
+  </body>
+</html>
